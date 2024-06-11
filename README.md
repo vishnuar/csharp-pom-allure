@@ -8,6 +8,8 @@ Before running the tests, ensure you have the following installed:
 
 - [.NET SDK](https://dotnet.microsoft.com/download)
 - [Visual Studio](https://visualstudio.microsoft.com/downloads/) or any other compatible IDE
+- [JDK](https://www.oracle.com/java/technologies/downloads/) for Allure Report generation
+- [Allure Commandline](https://github.com/allure-framework/allure2) installed and added to your PATH
 
 ## Installation
 
@@ -28,11 +30,6 @@ Before running the tests, ensure you have the following installed:
 
 - **Pages**: Contains page object classes representing different pages of the application.
 - **Tests**: Contains test classes for executing automated tests.
-
-## Configuration
-
-- Update the URL in the test setup methods (`SetUp` attribute) to point to your application's login page.
-- Adjust the test methods in the test classes (`LoginTests.cs`) according to your application's UI elements and functionality.
 
 ## Dependencies
 
